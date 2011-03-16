@@ -31,3 +31,4 @@ Todo
 ---------------------------------
  * Add support for pinging multiple endpoints
  * Replace Net::Ping with something that doesn't require sudo
+ * Support daemonization, and logging
