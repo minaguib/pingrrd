@@ -26,6 +26,7 @@ sub load_pinginfo() {
 	}
 
 	$PINGER = Net::Ping->new("icmp");
+	$PINGER->{"pid"} = int(rand(65536));
 	$PINGER->hires(1);
 
 }
