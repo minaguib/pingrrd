@@ -5,7 +5,7 @@ RRA?=AVERAGE
 IP:=$(shell cat IP)
 NOW:=$(shell date)
 
-graphs: graph-1minute graph-1hour graph-1day graph-1week graph-1month
+graphs: graph-1minute graph-1hour graph-1day graph-1week graph-1month graph-3month graph-6month
 
 graph-1minute: RRA = LAST
 
